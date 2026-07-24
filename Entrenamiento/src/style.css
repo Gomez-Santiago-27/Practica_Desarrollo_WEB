@@ -1,0 +1,36 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  min-height: 70vh;
+  display: grid;
+  place-items: center;
+}
+
+#caja_coloreada {
+  background-color: #ffffff;
+  border: 5px #000000 solid;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  max-width: 200px;
+  max-height: 200px;
+  margin-bottom: 0px;
+}
+
+#boton_principal {
+  background-color: blue;
+  color: white;
+  min-height: 50px;
+  min-width: 200px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#boton_principal:hover {
+  background-color: aqua;
+  color:black;
+  transition-duration: 0.3s;
+} 
