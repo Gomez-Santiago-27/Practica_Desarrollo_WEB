@@ -11,17 +11,23 @@ body {
   background-color: #ffffff;
   border: 5px #000000 solid;
   border-radius: 10px;
-  width: 200px;
-  height: 200px;
-  max-width: 200px;
-  max-height: 200px;
-  margin-bottom: 0px;
+  width: 300px;
+  height: 300px;
+  max-width: 300px;
+  max-height: 300px;
+  margin-bottom: 20px;
 }
 
-#boton_principal {
+#casilla_de_botones {
+  display : grid;
+  margin : 0;
+  place-items : 10;
+}
+
+.boton {
   background-color: blue;
   color: white;
-  min-height: 50px;
+  min-height: 40px;
   min-width: 200px;
   text-align: center;
   font-size: 14px;
@@ -29,8 +35,13 @@ body {
   cursor: pointer;
 }
 
-#boton_principal:hover {
+.boton:hover {
   background-color: aqua;
   color:black;
   transition-duration: 0.3s;
-} 
+}
+
+#selector_de_colores {
+  min-height: 50px;
+  min-width: 200px;
+}

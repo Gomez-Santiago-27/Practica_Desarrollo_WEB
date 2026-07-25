@@ -10,7 +10,23 @@
     <h1>Cambia-Color</h1>
     <p>Haz click en el botón para poder cambiar el color de la caja</p>
     <div id="caja_coloreada"></div>
-    <button id="boton_principal">Cambiar color!</button>
+    <div id="casilla_de_botones">
+      <button class="boton" id="cambiarColorAleatorio">Cambiar por un color al azar!</button>
+      <label for="selector_de_colores">Seleccionar un color</label>
+      <select id="selector_de_colores">
+        <option value = 0 >negro</option>
+        <option value = 1 >rojo</option>
+        <option value = 2 >verde</option>
+        <option value = 3 >azul</option>
+        <option value = 4 >cyan</option>
+        <option value = 5 >magenta</option>
+        <option value = 6 >amarillo</option>
+        <option value = 7 >naranja</option>
+        <option value = 8 >verde oscuro</option>
+        <option value = 9 >violeta</option>
+      </select>
+      <button id="cambiar_color_seleccionado" class="boton">Cambiar!</button>
+    </div>
 
     <script type="module" src="/src/main.js"></script>
   </body>
