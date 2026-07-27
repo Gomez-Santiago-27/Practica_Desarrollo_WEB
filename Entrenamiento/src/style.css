@@ -10,9 +10,10 @@ body {
 #caja_coloreada {
   background-color: #ffffff;
   border: 5px #000000 solid;
+  text-align: center;
   border-radius: 10px;
-  width: 300px;
-  height: 300px;
+  min-width: 300px;
+  min-height: 300px;
   max-width: 300px;
   max-height: 300px;
   margin-bottom: 20px;
@@ -42,6 +43,10 @@ body {
 }
 
 #selector_de_colores {
+  border-color: blue;
+  border-style: solid;
+  border-radius: 10px 10px 0px 0px;
   min-height: 50px;
   min-width: 200px;
+  cursor: pointer;
 }

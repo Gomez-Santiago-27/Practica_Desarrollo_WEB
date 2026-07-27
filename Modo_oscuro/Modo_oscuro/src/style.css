@@ -1,0 +1,77 @@
+/*body.modo-oscuro {
+  background-color: #091413;
+  color: #B0E4CC;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  display: grid;
+  margin: 0;
+  min-height: 70vh;
+  place-items: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.modo-claro {
+  background-color: #FBF5A7;
+  color: #B331F1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  display: grid;
+  margin: 0;
+  min-height: 70vh;
+  place-items: center;
+  transition: background-color 0.3s, color 0.3s;
+}*/
+
+/* Aca voy a usar variables de CSS*/
+body.modo-claro {
+  --color-de-fondo: #6367FF;
+  --color-de-fuente: #FFDBFD;
+  --color-de-fondo-div: #8494FF;
+  --color-de-fondo-boton: #C9BEFF;
+  --color-de-fuente-boton: #6367FF;
+}
+
+body.modo-oscuro {
+  --color-de-fondo: #091413;
+  --color-de-fuente: #B0E4CC;
+  --color-de-fondo-div: #628141;
+  --color-de-fondo-boton: #88BA66;
+  --color-de-fuente-boton: #091413;
+}
+
+body {
+  background-color: var(--color-de-fondo);
+  color: var(--color-de-fuente);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  display: grid;
+  margin: 0;
+  min-height: 70vh;
+  place-items: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#caja {
+  background-color: var(--color-de-fondo-div);
+  color: var(--color-de-fuente);
+  border-color: var(--color-de-fuente);
+  border-style: solid;
+  border-radius: 10px;
+  padding: 20px 15px;
+}
+
+#btn_activar_modo {
+  font-size: medium;
+  background-color: var(--color-de-fondo-boton);
+  color: var(--color-de-fuente-boton);
+  border-color: var(--color-de-fuente);
+  text-align: center;
+  min-width: 100px;
+  min-height: 50px;
+  width: 200px;
+  height: 50px;
+  border-style: solid;
+  border-radius: 10px;
+  margin-left: 30%;
+}
+
