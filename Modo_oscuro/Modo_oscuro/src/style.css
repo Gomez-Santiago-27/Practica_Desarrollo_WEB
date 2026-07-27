@@ -73,5 +73,7 @@ body {
   border-style: solid;
   border-radius: 10px;
   margin-left: 30%;
+  cursor: pointer;
 }
+
 

@@ -2,12 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>creador_de_tareas</title>
+    <link rel="stylesheet" href="src/style.css">
+    <title>Creador de Tareas</title>
   </head>
   <body>
-    <div id="app"></div>
+    
+    <header id="cabecera">
+      <div id="presentacion">
+        <h1>Bienvenido al creador de tareas!</h1>
+        <h2>Con esta App vas a poder: </h2>
+        <ul>
+          <li>Crear una tarea;</li>
+          <li>Modificar una tarea en especifico;</li>
+          <li>Eliminar tareas si lo considera</li>
+        </ul>
+      </div>
+
+      <div id="formulario">
+        <h2><i>Crea tu tarea</i></h2>
+        <label for="titulo-de-la-tarea">Ingresa el titulo de la tarea: </label>
+        <input class="entrada-de-datos" id="titulo-de-la-tarea" placeholder="Escribe algo...">
+        <label for="comentarios">Comentarios: </label>
+        <textarea class="entrada-de-datos" id="comentarios" cols="5" rows="5" placeholder="comentarios..."></textarea>
+        <button class="boton" id="boton-para-crear">Agregar!</button>
+      </div>
+    </header>
+
+    <section id="seccion-de-tarjetas">
+      <!--se crearán las tarjetas necesarias para cada tarea creada-->
+    </section>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
